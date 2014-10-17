@@ -1,0 +1,32 @@
+﻿body {
+}
+
+.tableDemo {
+    border: 1px #ccc dotted; 
+    width: 100%;
+}
+
+.tableDemo td, .tableDemo  th {
+    border: 1px #ccc dotted; 
+    width: 33%;
+}
+
+.divDemo {
+    padding: 10px 0;
+}
+
+.divDemo div {
+    border: 1px #ccc dotted; 
+}
+
+.btnDemo {
+    
+}
+
+.prgDemo {
+    padding: 10px;
+}
+
+.lstDemo {
+    padding: 10px 30px;
+}

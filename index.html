@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>SwrusKiev2014Demo</title>
+
+ 
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+
+    <!-- VisualStudioTypeScriptCordovaTestApp references -->
+    <link href="css/index.css" rel="stylesheet" />
+
+ 
+</head>
+<body>
+    <h1>SWRUS-Kiev 2014</h1>
+    <p>This cross platform application is written on TypeScript using Cordova framework.</p>
+
+    <h2>HTML Table</h2>
+    <table class="tableDemo">
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="2">Cell 1 (colspan="2")</td>
+            <td>Cell 2</td>
+        </tr>
+        <tr>
+            <td>Cell 1</td>
+            <td colspan="2">Cell 2 (colspan="2")</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Cell 1 (rowspan="2")</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+        </tr>
+    </table>
+
+
+
+    <h2>Buttons</h2>
+    <div class="btnDemo text-center">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default">Left</button>
+            <button type="button" class="btn btn-default">Middle</button>
+            <button type="button" class="btn btn-default">Right</button>
+        </div>
+    </div>
+
+
+    <h2>Progresses</h2>  
+    <div class="prgDemo">
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                <span class="sr-only">40% Complete (success)</span>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                <span class="sr-only">20% Complete</span>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                <span class="sr-only">60% Complete (warning)</span>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                <span class="sr-only">80% Complete</span>
+            </div>
+        </div>
+    </div>
+
+    <h2>Lists</h2>
+    <div class="lstDemo list-group">
+        <a href="#" class="list-group-item active">
+            Cras justo odio
+        </a>
+        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+        <a href="#" class="list-group-item">Morbi leo risus</a>
+        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+        <a href="#" class="list-group-item">Vestibulum at eros</a>
+    </div>
+
+
+    <h2>Floating DIVs</h2>
+    <div class="divDemo">
+        <div class="pull-right">pull-right</div>
+        <div class="pull-left">pull-left</div>
+    </div>
+
+
+
+
+    <!-- Bootstrap -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
